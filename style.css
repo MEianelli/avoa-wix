@@ -1,0 +1,399 @@
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Roboto Condensed', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Abel', sans-serif;*/
+/*font-family: 'Dancing Script', cursive;*/
+.coresTrybe {
+  /*texto*/
+  background-color: rgb(117, 129, 91);
+  background-color: rgb(255, 249, 215);
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  background: transparent;
+  width: 0px;
+}
+/* **************TOP NAV BAR*******************/
+.topNavbarWraper {
+  display: flex;
+  height: 100px;
+  position: fixed;
+  z-index: 1;
+}
+.topNavSpacer {
+  height: 100px;
+  width: 100vw;
+}
+.topNavLogo {
+  background-color: rgb(255, 249, 215);
+  box-sizing: border-box;
+  color: rgb(117, 129, 91);
+  float: left;
+  font-size: 3em;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  width: 30vw;
+}
+.topNavMenuList {
+  background-color: white;
+  box-sizing: border-box;
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  overflow: hidden;
+  text-align: right;
+  width: 70vw;
+}
+.topNavMenuList ul {
+  color: rgb(117, 129, 91);
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.9em;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  padding-right: 40px;
+}
+.topNavMenuList ul li {
+  cursor: pointer;
+  list-style: none;
+  margin: 0 10px;
+}
+.topNavMenuList ul li:hover {
+  color: rgb(228, 178, 165);
+}
+/* ****************INICIO BANNER ******************/
+.bannerWraper {
+  display: flex;
+  height: 760px;
+  padding-right: 40px;
+}
+.leftBanner {
+  background-color: rgb(255, 249, 215);
+  height: 100%;
+  width: 30vw;
+}
+.rightBanner {
+  align-items: flex-end;
+  background-color: rgb(252, 211, 173);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 75vw;
+}
+.rightBanner img {
+  width: 700px;
+}
+.floatingText {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 400px;
+  justify-content: flex-start;
+  left: 6vw;
+  position: absolute;
+  top: 150px;
+  width: 350px;
+  word-break: normal;
+}
+.floatingText p {
+  color: rgb(117, 129, 91);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  margin: 0;
+}
+.floatingText div {
+  border: 2px solid rgb(252, 211, 173);
+  color: #75815b;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 30px;
+  text-align: center;
+  width: 100px;
+}
+.floatingText div:hover {
+  background-color: rgb(252, 211, 173);
+  color: white;
+}
+/* ****************INICIO ABOUT US ******************/
+.aboutUsBannerWrap {
+  display: flex;
+  height: 800px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  position: relative;
+  width: 100vw;
+}
+.leftImg {
+  background-color: rgb(255, 249, 215);
+  height: 600px;
+  width: 30vw;
+}
+.leftImg img {
+  width: 30vw;
+}
+.rightTopText {
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 300px;
+  padding: 20px 200px;
+  width: 70vw;
+}
+.rightTopText h1 {
+  color: #75815b;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+}
+.rightTopText p {
+  padding-left: 30px;
+}
+.rightTopText div {
+  align-self: flex-end;
+  border: 2px solid rgb(252, 211, 173);
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  text-align: center;
+  width: 90px;
+}
+.rightTopText div:hover {
+  background-color: rgb(252, 211, 173);
+  color: white;
+}
+.rightBotDiv {
+  background-color: #e49d7fff;
+  bottom: 100px;
+  height: 500px;
+  position: absolute;
+  right: 0;
+  width: 85vw;
+  z-index: -1;
+}
+.rightBotDivImg {
+  background-color: rosybrown;
+  bottom: -40px;
+  height: 400px;
+  left: 40vw;
+  position: absolute;
+  width: 40vw;
+}
+.rightBotDivImg img {
+  height: 400px;
+  object-fit: cover;
+  width: 40vw;
+}
+/* ****************CARD BEGIN ******************/
+.cardsSection {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+}
+
+.cardsSection > p {
+  color: #75815b;
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.arrows {
+  position: absolute;
+  top: 400px;
+  width: 90px;
+  height: 90px;
+  font-size: 80px;
+  line-height: 90px;
+  z-index: 2;
+  text-align: center;
+  font-weight: 900;
+  color: #808080aa;
+  cursor: pointer;
+  user-select: none;
+}
+
+.rightArrow {
+  right: 0;
+}
+
+.leftArrow {
+  left: 0;
+}
+
+.arrows:hover {
+  background-color: #80808055;
+  color: #808080ff;
+}
+
+.cardsWraper {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 840px;
+  justify-content: space-between;
+  padding: 20px;
+  overflow-x: auto;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.shopAll {
+  align-self: center;
+  width: 100%;
+  text-align: center;
+  border: 2px solid rgb(252, 211, 173);
+  cursor: pointer;
+  padding: 10px 30px;
+  text-align: center;
+  width: 90px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.shopAll:hover {
+  background-color: rgb(252, 211, 173);
+  color: white;
+}
+
+.cards {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 600px;
+  position: relative;
+  width: 350px;
+  cursor: pointer;
+  margin: 0 50px;
+}
+.cards img {
+  min-height: 600px;
+  object-fit: cover;
+  width: 350px;
+}
+.quickView {
+  background-color: #fff9d7ee;
+  color: rgb(117, 129, 91);
+  bottom: 0;
+  font-size: 12px;
+  font-weight: 900;
+  margin: 0;
+  height: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  transition: height 0.3s linear;
+}
+
+.priceTag {
+  font-size: 18px;
+  text-align: center;
+  line-height: 36px;
+  font-weight: 900;
+  color: rgb(117, 129, 91);
+}
+
+.addRemoveButton {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.addToCartButton {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  border: 0;
+  background-color: rgb(117, 129, 91);
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.cards:hover .quickView {
+  height: 40px;
+}
+.cards:hover .addToCartButton {
+  opacity: 1;
+}
+.cards:hover .addRemoveButton {
+  opacity: 1;
+}
+
+/* ****************FOOTER BEGIN ******************/
+
+.footerWrap {
+  height: 400px;
+  background-color: rgb(255, 249, 215);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-top: 50px;
+  color: #75815b;
+  font-weight: 900;
+}
+
+.footerWrap ul {
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.footerWrap ul li {
+  padding: 5px;
+}
+
+.footerWrap p {
+  padding: 20px;
+}
+
+.footerWrap form button {
+  text-align: center;
+  border: 2px solid rgb(252, 211, 173);
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px 30px;
+  text-align: center;
+  width: 120px;
+  color: #75815b;
+}
+
+.footerWrap form button:hover {
+  background-color: rgb(252, 211, 173);
+  color: white;
+}
+
+.footerWrap form input {
+  height: 32px;
+  background-color: transparent;
+  padding-left: 8px;
+  margin-right: 10px;
+  width: 350px;
+  border: 0;
+  border-bottom: 3px rgb(252, 211, 173) solid;
+  color: #75815b;
+}
+
+.footerWrap form input:focus {
+  outline: none;
+}
