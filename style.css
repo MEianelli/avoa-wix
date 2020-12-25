@@ -12,6 +12,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  background-color: white;
 }
 ::-webkit-scrollbar {
   background: transparent;
